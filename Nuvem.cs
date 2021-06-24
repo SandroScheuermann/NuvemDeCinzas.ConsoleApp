@@ -65,7 +65,7 @@ namespace NuvemDeCinzas.ConsoleApp
                                 colunaModificada[CoordenadaX] = '#';
                                 mapaAnterior[CoordenadaY] = colunaModificada.ToString();
                             }
-                            mapaAnterior[CoordenadaY] = linhaModificada.ToString();
+                            mapaAnterior[CoordenadaY] = linhaModificada.ToString(); 
 
                             if (possui && !verificaAeroPortoNaLinha.IsMatch(mapaAnterior[CoordenadaY]))
                                 diaMinimo = diaMaximo;
